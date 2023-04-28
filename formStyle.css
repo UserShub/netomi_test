@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formContents{
+    background-color: #f2f2f2;
+    width : 20%;
+    margin-left : auto;
+    margin-right : auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.main{
+    border : 2px solid red;
+    padding: 1em;
+    width : 95%;
+    margin : 0 auto;
+    margin-top: 1.5em;
+}
+
+label{
+    color : #011330;
+}
+
+.para{
+    text-align : justify;
+    font-family: 'Heebo', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body{
+    align-items: center;
+    border: 4px solid green;
+}
+
+.topic {
+    font-weight: 550;
+}
+
+.set1{
+    margin : 0 auto;
+    text-align: center;
+}
+
+.set{
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 250;
+    height: 32;
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+#name, #tel, #date, #email{
+    width: 20em;
+    height : 2.4em;
+}
+
+select{
+    width: 17.7em;
+    height: 2.4em;
+}
+
+#register{
+    padding-left: 22px;
+}
+
+.green-button {
+    background-color: #3a8c71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#dynamic{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}

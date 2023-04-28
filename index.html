@@ -1,0 +1,71 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netomi Test</title>
+    <link rel="stylesheet" href="formStyle.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main">
+        <div class="formContents">
+            <p class="para">Can you please provide your personal details?</p>
+            <br>
+            <form id="register" method="post">
+                <label class="topic">Name</label>
+                <br/>
+                <input type="text" name="name" id="name">
+                <br/>
+                <br/>
+
+                <label class="topic">Date of Birth</label>
+                <br />
+                <input type="date" name="date" id="date">
+                <br />
+                <br />
+
+                <label class="topic">Contact Number</label>
+                <br />
+                <input type="tel" name="tel" id="tel" maxlength="10">
+                <br />
+                <br />
+
+                <label class="topic">Country</label>
+                <br/>
+                <select id="country" name="country">
+                    <option id="countryoption" name="country" selected>--Select A Country--</option>
+                </select>
+                <br/>
+                <br/>
+
+                <label class="topic">State</label>
+                <br/>
+                <select id="state" name="state">
+                    <option id="stateoption" name="state" selected>--Select A State--</option>
+                </select>
+                <br />
+                <br />
+
+                <label class="topic">Your Email</label>
+                <br />
+                <input type="email" name="email" id="email">
+                <br />
+                <br />
+
+                <input type="button" value="SUBMIT" id="submitButton" class="green-button">
+                <br/>
+                <br />
+            </form>
+
+        </div>
+        </div>
+
+        <p id="dynamic"></p>
+
+        <script src="app.js"></script>
+    </body>
+</html>
